@@ -13,6 +13,13 @@
 ```
 apt-get install net-tools 
 ```
+
+脚本使用方法
+
+```
+wget -N --no-check-certificate  
+```
+
 原作者有视频介绍链接
 
 哔站视频介绍 https://www.bilibili.com/video/BV1A5411A7DR/  
