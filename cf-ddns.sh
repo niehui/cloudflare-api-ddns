@@ -92,7 +92,7 @@ fi
 
 # Get the current public network ip and previous public network ip
 
-WAN_IP=`/usr/sbin/ifconfig |sed -n '/^ppp.*/{s/^\([^ ]*\) .*/\1/g;h;: top;n;/^$/b;s/^ \{1,\}inet \(.*\)  netmask.*/\1/g;p}'`
+WAN_IP=`curl ip.sb`
 
 WAN_IP_FILE=$HOME/.cf-wan_ip_$CFRECORD_NAME.txt
 if [ -f $WAN_IP_FILE ]; then
