@@ -17,8 +17,19 @@ apt-get install net-tools
 脚本使用方法
 
 ```
-wget -N --no-check-certificate  
+wget -N --no-check-certificate https://raw.githubusercontent.com/niehui/cloudflare-api-ddns/main/cf-ddns.sh
 ```
+```
+vi cf-ddns.sh
+```
+```
+chmod +x cf-ddns.sh
+```
+```
+./cf-ddns.sh
+```
+
+
 
 原作者有视频介绍链接
 
