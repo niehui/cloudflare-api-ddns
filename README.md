@@ -32,15 +32,15 @@ chmod +x cf-ddns.sh
 设置定时任务
 
 输入 crontab -e ，在文件里面添加一行：
-
+```
 */2 * * * * /root/cf-ddns.sh >/dev/null 2>&1
-
+```
 说明：每 2 分钟执行脚本检测本机 IP，如跟上一次的 IP 相同，则退出；不同则通过 API 更新至 CloudFlare 的 DNS。
 
 如果需要日志文件，上述代码请替换成下面代码.
-
+```
 */2 * * * * /root/cf-ddns.sh >> /var/log/cf-ddns.log 2>&1
-
+```
 原作者有视频介绍链接
 
 哔站视频介绍 https://www.bilibili.com/video/BV1A5411A7DR/  
