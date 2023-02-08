@@ -29,16 +29,16 @@ set -o nounset
 # default config
 ##################################################################################################################################
 # api-tokens is also called api-key、CFKEY, you can get it from  https://dash.cloudflare.com/profile/api-tokens			#		
-CFKEY=1b7f1601e22b7cbd39252333f4afe3e5c0050											 #												
+CFKEY=a3c79d2a374b435f5fe8f0d1da34709e3e8f7											 #												
 																 #																	
 # Username, your email address,eg: user@example.com										 #											
-CFUSER=1051239893@qq.com													 #														
+CFUSER=duxvpn@gmail.com													 #														
 																 #																	
 # Zone name,your domain name, eg: example.com											 #										    
-CFZONE_NAME=jjzz.org														 #														
+CFZONE_NAME=baicha.life														 #														
 																 #																	
 # Hostname to update, eg: homeserver.example.com										 #											
-CFRECORD_NAME=dip.jjzz.org													 #														
+CFRECORD_NAME=nat.baicha.life													 #														
 																 #																	
 ##################################################################################################################################
 
