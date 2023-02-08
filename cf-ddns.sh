@@ -38,7 +38,7 @@ CFUSER=duxvpn@gmail.com													 #
 CFZONE_NAME=baicha.life														 #														
 																 #																	
 # Hostname to update, eg: homeserver.example.com										 #											
-CFRECORD_NAME=nat.baicha.life													 #														
+CFRECORD_NAME=ca.baicha.life													 #														
 																 #																	
 ##################################################################################################################################
 
