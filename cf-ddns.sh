@@ -92,7 +92,7 @@ fi
 
 # Get the current public network ip and previous public network ip
 
-WAN_IP=`curl ip.sb`
+WAN_IP=`curl ipv4.ip.sb`
 
 WAN_IP_FILE=$HOME/.cf-wan_ip_$CFRECORD_NAME.txt
 if [ -f $WAN_IP_FILE ]; then
