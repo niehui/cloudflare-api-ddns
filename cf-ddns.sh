@@ -35,10 +35,10 @@ CFKEY=a3c79d2a374b435f5fe8f0d1da34709e3e8f7											 #
 CFUSER=duxvpn@gmail.com													 #														
 																 #																	
 # Zone name,your domain name, eg: example.com											 #										    
-CFZONE_NAME=baicha.life														 #														
+CFZONE_NAME=niehui.store													 #														
 																 #																	
 # Hostname to update, eg: homeserver.example.com										 #											
-CFRECORD_NAME=ca.baicha.life													 #														
+CFRECORD_NAME=fr.niehui.store													 #														
 																 #																	
 ##################################################################################################################################
 
